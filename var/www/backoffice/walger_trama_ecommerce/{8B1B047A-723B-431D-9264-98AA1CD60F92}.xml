@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2017/03/14" author="e.World Technology Ltd.">
+  <project id="{8B1B047A-723B-431D-9264-98AA1CD60F92}" file="C:\wamp\www\ecommerce\trama.solutions.ecommerce\pmp\walger_trama_ecommerce.pmp" name="walger_trama_ecommerce" product="PHPMaker" version="13.0" datetime="2017/03/14 02:50:09" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;">
+    <table id="cliente" name="cliente" caption="_cliente" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_actualizaciones" name="walger_actualizaciones" caption="_walger_actualizaciones" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="dbo_clientevtotransa" name="dbo_clientevtotransa" caption="_dbo_clientevtotransa" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="imagenes" name="imagenes" caption="_imagenes" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="secuencia_cf" name="secuencia_cf" caption="_secuencia_cf" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_items_pedidos" name="walger_items_pedidos" caption="_walger_items_pedidos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_logins" name="walger_logins" caption="_walger_logins" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_nl_campanias" name="walger_nl_campanias" caption="_walger_nl_campanias" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_nl_listas" name="walger_nl_listas" caption="_walger_nl_listas" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_tipos_clientes" name="trama_tipos_clientes" caption="_trama_tipos_clientes" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="todopago_datos2Dadicionales" name="todopago_datos-adicionales" caption="_todopago_datos-adicionales" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="todopago_provincias" name="todopago_provincias" caption="_todopago_provincias" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_cuotas2Drecargos" name="trama_cuotas-recargos" caption="Cuotas / Recargos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_pagos2Dentregas" name="trama_pagos-entregas" caption="Pagos por Entregas" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_medios2Dentrega" name="trama_medios-entrega" caption="Medios de Entrega" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_articulos2Dvalores2Dstock2Dprecio" name="trama_articulos-valores-stock-precio" caption="Valores, Stock y Precios" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_medios2Dpagos" name="trama_medios-pagos" caption="Medios de Pago" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_atributos" name="trama_atributos" caption="Atributos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_atributos2Dvalores" name="trama_atributos-valores" caption="Valores por Atributo" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="dbo_articulo" name="dbo_articulo" caption="Artículos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="dbo_cliente" name="dbo_cliente" caption="Clientes" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="dbo_ivacondicion" name="dbo_ivacondicion" caption="Condiciones de IVA" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="dbo_listaprecios" name="dbo_listaprecios" caption="Listas de Precios" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="dbo_moneda" name="dbo_moneda" caption="Monedas" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_categorias2Dproductos" name="trama_categorias-productos" caption="Categorías de Artículos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="items_pedido_php" name="items_pedido.php" caption="Items Pedido" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="vencimientos_php" name="vencimientos.php" caption="Vencimientos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="factura_pdf_php" name="factura_pdf.php" caption="Factura PDF" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_noticias" name="trama_noticias" caption="Noticias" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_articulos" name="walger_articulos" caption="Ofertas y Novedades" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_clientes" name="walger_clientes" caption="Usuarios" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_ofertas" name="walger_ofertas" caption="Mensajes Públicos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_pedidos" name="walger_pedidos" caption="Pedidos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="walger_usuarios" name="walger_usuarios" caption="Usuarios Backoffice" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_descargas" name="trama_descargas" caption="Descargas" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_emails" name="trama_emails" caption="EMails" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_favoritos" name="trama_favoritos" caption="Favoritos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_newsletter" name="trama_newsletter" caption="Newsletter" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_categorias2Dportfolio" name="trama_categorias-portfolio" caption="Categorías de Portfolio" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_portfolio" name="trama_portfolio" caption="Portfolio" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_tipos2Darticulos" name="trama_tipos-articulos" caption="Tipos de Artículos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_lineas2Dproductos" name="trama_lineas-productos" caption="Líneas" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_marcas2Dproductos" name="trama_marcas-productos" caption="Marcas" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="matriz_valores_stock_precio_php" name="matriz_valores_stock_precio.php" caption="Valores, Stock y Precio" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="toggle_menu_php" name="toggle_menu.php" caption="toggle_menu.php" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="enviar_email_habilitado_php" name="enviar_email_habilitado.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_slider" name="trama_slider" caption="Slider" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_mensajes2Dclientes" name="trama_mensajes-clientes" caption="Mensajes a Clientes" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_mensajes2Dpublicos2Dleidos" name="trama_mensajes-publicos-leidos" caption="Mensajes Leídos" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="trama_articulos2Dimagenes2Dadicionales" name="trama_articulos-imagenes-adicionales" caption="Imágenes Adicionales" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+  </project>
+</configuration>
