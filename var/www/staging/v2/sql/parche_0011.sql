@@ -1,0 +1,4 @@
+CREATE TABLE `trama_portfolio` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `denominacion` VARCHAR(100) NULL , `contenido` TEXT NULL , `imagen` VARCHAR(255) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+ALTER TABLE `trama_portfolio` ADD `fkCategoriaPortfolio` INT UNSIGNED NULL AFTER `imagen`;
+CREATE TABLE `trama_categorias-portfolio` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `denominacion` VARCHAR(100) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+ALTER TABLE `dbo_articulo` CHANGE `DescrNivelInt4` `DescrNivelInt4` VARCHAR(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Catalogo';

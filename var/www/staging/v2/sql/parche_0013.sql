@@ -1,0 +1,10 @@
+CREATE VIEW `estado_actualizacion` AS select `walger_actualizaciones`.`fecha` AS `fecha`,`walger_actualizaciones`.`pendiente` AS `estado` from `walger_actualizaciones` order by `walger_actualizaciones`.`fecha` desc limit 1;
+CREATE TABLE `trama_tipos-articulos` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `denominacion` VARCHAR(50) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `trama_tipos-articulos-atributos` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `idTipoArticulo` INT NULL , `idAtributo` INT NULL , `orden` INT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `trama_atributos` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `denominacion` VARCHAR(50) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `trama_atributos-valores` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `idAtributo` INT NULL , `valor` VARCHAR(50) NULL , `imagen` VARCHAR(255) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `trama_articulos-valores-stock-precio` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `idArticulo` INT NULL , `valor1` VARCHAR(50) NULL , `valor2` VARCHAR(50) NULL , `valor3` VARCHAR(50) NULL , `valor4` VARCHAR(50) NULL , `valor5` VARCHAR(50) NULL , `valor6` VARCHAR(50) NULL , `valor7` VARCHAR(50) NULL , `valor8` VARCHAR(50) NULL , `valor9` VARCHAR(50) NULL , `precio` DOUBLE(12,2) NULL , `stock` DOUBLE(12,2) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+ALTER TABLE `dbo_articulo` ADD `idTipoArticulo` INT NULL AFTER `Stock1_StkArti`;
+ALTER TABLE `trama_tipos-articulos-atributos` CHANGE `orden` `orden` INT(11) NOT NULL;
+ALTER TABLE `trama_articulos-valores-stock-precio` CHANGE `idArticulo` `idArticulo` VARCHAR(50) NULL DEFAULT NULL;
+ALTER TABLE `walger_items_pedidos` ADD `idArticulosValores` INT UNSIGNED NULL AFTER `CodInternoArti`;

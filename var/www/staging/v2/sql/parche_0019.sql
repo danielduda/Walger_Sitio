@@ -1,0 +1,1 @@
+CREATE TABLE `trama_slider` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `imagen` VARCHAR(255) NULL , `contenido` TEXT NULL , `link` VARCHAR(255) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

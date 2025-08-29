@@ -1,0 +1,3 @@
+CREATE TABLE `trama_descargas` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `nombreArchivo` VARCHAR(100) NULL , `tamanoArchivo` VARCHAR(20) NULL , `tipoArchivo` VARCHAR(5) NULL , `inactivo` TINYINT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+ALTER TABLE `trama_descargas` ADD `descripcion` VARCHAR(100) NULL AFTER `id`;
+CREATE TABLE `trama_emails` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `enviado` BOOLEAN NULL , `para` VARCHAR(100) NULL , `asunto` VARCHAR(100) NULL , `fecha` VARCHAR(100) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

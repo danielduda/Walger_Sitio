@@ -1,0 +1,1 @@
+ALTER TABLE `dbo_articulo` ADD FULLTEXT( `CodInternoArti`, `CodBarraArti`, `DescrNivelInt4`, `DescrNivelInt3`, `DescripcionArti`, `NombreFotoArti`);

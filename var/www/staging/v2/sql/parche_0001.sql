@@ -1,0 +1,2 @@
+CREATE TABLE `trama_categorias-productos` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `denominacion` VARCHAR(100) NULL , `descripcion` TEXT NULL , `imagen` VARCHAR(255) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `trama_noticias` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `titulo` VARCHAR(100) NULL , `fecha` DATE NULL , `contenido` TEXT NULL , `imagen` VARCHAR(255) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

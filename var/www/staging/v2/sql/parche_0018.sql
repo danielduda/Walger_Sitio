@@ -1,0 +1,7 @@
+ALTER TABLE `trama_tipos-articulos` ADD `atributo1` INT UNSIGNED NULL AFTER `denominacion`, ADD `atributo2` INT UNSIGNED NULL AFTER `atributo1`, ADD `atributo3` INT UNSIGNED NULL AFTER `atributo2`, ADD `atributo4` INT UNSIGNED NULL AFTER `atributo3`, ADD `atributo5` INT UNSIGNED NULL AFTER `atributo4`, ADD `atributo6` INT UNSIGNED NULL AFTER `atributo5`, ADD `atributo7` INT UNSIGNED NULL AFTER `atributo6`, ADD `atributo8` INT UNSIGNED NULL AFTER `atributo7`, ADD `atributo9` INT UNSIGNED NULL AFTER `atributo8`;
+
+DROP TABLE `trama_tipos-articulos-atributos`;
+
+ALTER TABLE `trama_articulos-valores-stock-precio` CHANGE `valor1` `valor1` INT NULL DEFAULT NULL, CHANGE `valor2` `valor2` INT NULL DEFAULT NULL, CHANGE `valor3` `valor3` INT NULL DEFAULT NULL, CHANGE `valor4` `valor4` INT NULL DEFAULT NULL, CHANGE `valor5` `valor5` INT NULL DEFAULT NULL, CHANGE `valor6` `valor6` INT NULL DEFAULT NULL, CHANGE `valor7` `valor7` INT NULL DEFAULT NULL, CHANGE `valor8` `valor8` INT NULL DEFAULT NULL, CHANGE `valor9` `valor9` INT NULL DEFAULT NULL;
+
+ALTER TABLE `trama_articulos-valores-stock-precio` ADD UNIQUE( `idArticulo`, `valor1`, `valor2`, `valor3`, `valor4`, `valor5`, `valor6`, `valor7`, `valor8`, `valor9`);

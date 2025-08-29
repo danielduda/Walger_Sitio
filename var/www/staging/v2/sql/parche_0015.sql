@@ -1,0 +1,1 @@
+ALTER TABLE `dbo_articulo` ADD `detalle` TEXT NULL AFTER `idTipoArticulo`;

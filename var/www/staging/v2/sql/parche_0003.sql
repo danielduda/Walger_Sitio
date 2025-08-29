@@ -1,0 +1,1 @@
+CREATE VIEW `estado_actualizacion`  AS  select `walger_actualizaciones`.`fecha` AS `fecha`,`walger_actualizaciones`.`pendiente` AS `estado` from `walger_actualizaciones` order by `walger_actualizaciones`.`fecha` desc limit 1 ;

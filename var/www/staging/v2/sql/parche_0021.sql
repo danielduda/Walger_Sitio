@@ -1,0 +1,1 @@
+ALTER TABLE `walger_pedidos` ADD `medioEnvio` VARCHAR(255) NULL AFTER `idMedioEnvio`;

@@ -1,0 +1,1 @@
+ALTER TABLE `trama_emails` ADD `contenido` TEXT NULL AFTER `fecha`;

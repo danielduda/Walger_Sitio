@@ -1,0 +1,1 @@
+ALTER TABLE `walger_pedidos` CHANGE `factura` `factura` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT '', CHANGE `comentario` `comentario` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
