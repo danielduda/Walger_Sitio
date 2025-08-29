@@ -1,0 +1,102 @@
+body{
+	margin: 10px;
+	visibility: visible!important;
+}
+.conforme{
+	border-top: dotted!important;
+	max-width: 250px!important;
+	text-align: center!important;
+	margin-right: 10px!important;
+}
+
+.encabezado img{
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+.encabezado2 h1,h2,h3,h4,h5{
+	margin: 0px!important;
+}
+
+.encabezado2,.encabezado{
+	padding: 20px;
+}
+
+.cliente{
+	display: flex;
+  	margin-left: 20px;
+}
+.clie{
+	width: 100px;
+  	display: inline-block;
+  	text-align: left;
+}
+.cli{
+	width: 380px;
+}
+.descripcion{
+	width: 850px;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	margin: 2px;
+	min-height: 32px;
+}	
+.ltable{
+	border-style: solid!important;
+	border-radius: 10px!important;
+	border-collapse: inherit;
+	width: 1100px;
+  	padding: 10px;
+  	background-color: #fff!important;
+}
+textarea{
+	width: 480px!important;
+	resize:vertical;
+}
+#panelcontrol{
+	position: fixed;
+  	z-index: 200;
+	top: 10px;
+	left: 1150px;
+	width: auto;
+	height: auto;
+	border-style: solid!important;
+  	border-radius: 10px!important;
+  	border-collapse: inherit;
+    padding: 10px;
+  	background-color: #fff!important;
+  	border-color: gray;
+  	box-shadow: 5px 5px 5px #999;
+}
+
+.btnpanel{
+	margin:10px;
+}
+.btn{
+	margin: 2px;
+}
+
+@media print {	
+    @page {
+      size: a4;
+    }
+
+	#obsint{
+		display: none;
+	}
+
+	#panelcontrol{
+		display: none;
+	}
+
+	#remitoadd{
+		size:a4;
+	}
+}
+
+body {
+  height: auto!important; 
+}
+form{
+	height: auto;
+}
