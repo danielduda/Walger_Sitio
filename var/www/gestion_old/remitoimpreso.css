@@ -1,0 +1,128 @@
+
+body {
+font-family: arial;   
+}
+
+input{
+  border: 0;
+  position: absolute;
+  background-color: transparent;
+  font-size: 15pt;
+  color: black;
+}
+
+#numero{
+  left: 518px;
+  top: 180px;
+  font-size: 10pt;
+  width: 180px;
+}
+
+#dia{
+  left: 527px;
+  top: 196px;
+  width: 100px;
+}
+#mes{
+  left: 588px;
+  top: 196px;
+  width: 100px;
+}
+#ano{
+  left: 649px;
+  top: 196px;
+  width: 100px;
+}
+#destinatario{
+  left: 152px;
+  top: 308px;
+  width: 600px;
+}
+#domicilio{
+  left: 152px;
+  top: 346px;
+  width: 600px;
+}
+#localidad{
+  left: 152px;
+  top: 384px;
+  width: 600px;
+}
+#consfinal{
+    top: 432px;
+    left: 179px;
+}
+#excento{
+    top: 432px;
+    left: 306px;
+}
+#monot{
+    top: 463px;
+    left: 195px;
+}
+#resp{
+    top: 463px;
+    left: 337px;
+}
+#cuit{
+    top: 450px;
+    left: 448px;
+}
+#detalle{
+    position: absolute;
+    top: 561px;
+    left: 63px;
+}
+tr.renglon {
+    height: 28px;
+}
+td.cantidad {
+    width: 45px;
+}
+#facturas{
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    resize: none;
+    top: 840px;
+    left: 519px;
+    font-size: 10pt;
+    height: 46px;
+    width: 220px;
+    overflow: hidden;
+}
+#despachado{
+    top: 884px;
+    left: 196px;
+}
+#cuitdespachado{
+    top: 884px;
+    left: 522px;
+}
+#bultos{
+    top: 922px;
+    left: 170px;
+}
+#valor{
+    top: 922px;
+    left: 552px;
+    width: 150px;
+}
+page[size="A4"] {
+  /*background-image: url("images/remito.png");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  float: left;
+}
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+} 

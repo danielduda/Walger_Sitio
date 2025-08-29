@@ -1,0 +1,1 @@
+UPDATE `remitos` SET `resultado` = 'SMTP Error: data not accepted.' WHERE `Id_Remito` = '12'
