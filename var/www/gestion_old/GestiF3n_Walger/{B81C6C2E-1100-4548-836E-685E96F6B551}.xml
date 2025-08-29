@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<configuration date="2016/02/15" author="e.World Technology Ltd.">
+<project id="{B81C6C2E-1100-4548-836E-685E96F6B551}" file="D:\php\gestión walger\Gestión Walger.pmp" name="GestiF3n_Walger" product="PHPMaker" version="10.0" datetime="2016/02/15 14:57:27" languagefolder="phplang" userlevel="0,&quot;Default&quot;,0">
+<table id="dbo_cliente" name="dbo_cliente" caption="Clientes" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="facturas" name="facturas" caption="facturas" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="niveles" name="niveles" caption="niveles" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="operadores" name="operadores" caption="operadores" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="permisos" name="permisos" caption="permisos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="proveedores" name="proveedores" caption="proveedores" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="remitos" name="remitos" caption="remitos" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="remitos_detalle" name="remitos_detalle" caption="Detalle" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="transporte" name="transporte" caption="transporte" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="usuarios" name="usuarios" caption="usuarios" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="productos" name="productos" caption="Tipos de bultos" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="remitosview" name="remitosview" caption="remitosview" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Report1" name="Report1" caption="Report 1" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="remitosclientes" name="remitosclientes" caption="remitosclientes" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="remitodetalle" name="remitodetalle" caption="remitodetalle" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="estilopaquete" name="estilopaquete" caption="estilopaquete" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="numerador" name="numerador" caption="numerador" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="transporte_interno" name="transporte_interno" caption="transporte interno" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="configuraciones" name="configuraciones" caption="configuraciones" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>
