@@ -74,7 +74,7 @@
 
 <table width="100%">
 <tr>
-    <td align="left"><img src="http://servidor.walger.com.ar/imgs/logo.jpg"></td>
+    <td align="left"><img src="http://servidor2.walger.ar/imgs/logo.jpg"></td>
     <td align="right">Ficha de Vencimientos</td>
   </tr>
   <tr>
