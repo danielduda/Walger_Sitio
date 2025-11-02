@@ -4,7 +4,7 @@
 
   include_once ("../_old_inc/funciones.php");
 
-  $mysqli = mysqli_connect('localhost', 'root', 'walger0000', 'walger');
+  $mysqli = mysqli_connect('localhost', 'technext_walger_user', '*Walger000#25', 'technext_walger');
 
   if (!$mysqli) {
     echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
@@ -82,7 +82,7 @@
 
 <table width="100%">
 <tr>
-    <td align="left"><img src="http://servidor.walger.com.ar/imgs/logo.jpg"></td>
+    <td align="left"><img src="http://servidor2.walger.ar/imgs/logo.jpg"></td>
     <td align="right">Ficha de Vencimientos</td>
   </tr>
   <tr>
@@ -212,11 +212,11 @@
 <?PHP
 
 $fcisis_doc = "";
-$dh_vto = opendir("/home/fcisis/");
+$dh_vto = opendir("/home/technext/servidor2.walger.ar/fcisis/");
 while ($f_vto = readdir($dh_vto)) {
 	if ((strpos($f_vto, $cliente ["CodigoCli"]) === 0) && (strpos($f_vto, $cliente ["CuitCli"]) > 0)){
 
-		$dh1_vto = opendir("/home/fcisis/".$f_vto."/");
+		$dh1_vto = opendir("/home/technext/servidor2.walger.ar/fcisis/".$f_vto."/");
 		while ($f1_vto = readdir($dh1_vto)) {
 			if ((strpos($f1_vto, $vtos [$i]["NroComprob_CliTra"]) > 0)&&(strpos($f1_vto, ".pdf") > 0)) {
 				$fcisis_doc = "/fc.php?r=".$f_vto."/".$f1_vto;
