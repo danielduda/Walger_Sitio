@@ -9,8 +9,8 @@
 
   function conectar () {
   
-    mysql_connect ("localhost", "root", "walger0000");
-    mysql_select_db ("walger");
+    mysql_connect ("localhost","technext_walger_user", "*Walger000#25");
+    mysql_select_db ("technext_walger");
   
   }
 
@@ -181,10 +181,10 @@
           '.$imagen.'
 
           <div class="datos">
-            <strong onclick="location.href = \'articulo.php?id='.$f ["CodInternoArti"].'\';">CÛdigo:</strong> '.$f ["CodInternoArti"].'<br />
+            <strong onclick="location.href = \'articulo.php?id='.$f ["CodInternoArti"].'\';">C√≥digo:</strong> '.$f ["CodInternoArti"].'<br />
             <strong onclick="location.href = \'articulo.php?id='.$f ["CodInternoArti"].'\';">Marca: </strong> '.$f ["DescrNivelInt2"].'<br />
-            <strong onclick="location.href = \'articulo.php?id='.$f ["CodInternoArti"].'\';">LÌnea:</strong> '.$f ["DescrNivelInt3"].'<br />
-            <strong onclick="location.href = \'articulo.php?id='.$f ["CodInternoArti"].'\';">Cat·logo:</strong> '.$f ["DescrNivelInt1"].'
+            <strong onclick="location.href = \'articulo.php?id='.$f ["CodInternoArti"].'\';">L√≠nea:</strong> '.$f ["DescrNivelInt3"].'<br />
+            <strong onclick="location.href = \'articulo.php?id='.$f ["CodInternoArti"].'\';">Cat√°logo:</strong> '.$f ["DescrNivelInt1"].'
           </div>
 
     ');
@@ -244,30 +244,30 @@
   function convertLatin1ToHtml ($str) {
 	
     $html_entities = array (
-        "·" =>  "&aacute;",     #latin small letter a
-        "¡" =>  "&Aacute;",     #latin small letter a
-        "¿" =>  "&Agrave;",     #latin capital letter A
-        "‡" =>  "&agrave;",     #latin small letter a
-        "…" =>  "&Eacute;",     #latin capital letter E
-        "È" =>  "&eacute;",     #latin small letter e
-        "»" =>  "&Egrave;",     #latin capital letter E
-        "Ë" =>  "&Egrave;",     #latin capital letter E
-        "Ì" =>  "&iacute;",     #latin capital letter E
-        "Õ" =>  "&Iacute;",     #latin small letter e
-        "Ï" =>  "&igrave;",     #latin capital letter E
-        "Ã" =>  "&Igrave;",     #latin capital letter E
-        "Û" =>  "&oacute;",     #latin capital letter E
-        "”" =>  "&Oacute;",     #latin small letter e
-        "Ú" =>  "&ograve;",     #latin capital letter E
-        "“" =>  "&Ograve;",     #latin capital letter E
-        "˙" =>  "&uacute;",     #latin capital letter E
-        "⁄" =>  "&Uacute;",     #latin small letter e
-        "˘" =>  "&ugrave;",     #latin capital letter E
-        "Ÿ" =>  "&Ugrave;",     #latin capital letter E
-        "—" =>  "&Ntilde;",
-        "Ò" =>  "&ntilde;",
-        "«" =>  "&Ccedil;",     #latin capital letter C
-        "Á" =>  "&ccedil;"     #latin small letter c
+        "√°" =>  "&aacute;",     #latin small letter a
+        "√Å" =>  "&Aacute;",     #latin small letter a
+        "√Ä" =>  "&Agrave;",     #latin capital letter A
+        "√†" =>  "&agrave;",     #latin small letter a
+        "√â" =>  "&Eacute;",     #latin capital letter E
+        "√©" =>  "&eacute;",     #latin small letter e
+        "√à" =>  "&Egrave;",     #latin capital letter E
+        "√®" =>  "&Egrave;",     #latin capital letter E
+        "√≠" =>  "&iacute;",     #latin capital letter E
+        "√ç" =>  "&Iacute;",     #latin small letter e
+        "√¨" =>  "&igrave;",     #latin capital letter E
+        "√å" =>  "&Igrave;",     #latin capital letter E
+        "√≥" =>  "&oacute;",     #latin capital letter E
+        "√ì" =>  "&Oacute;",     #latin small letter e
+        "√≤" =>  "&ograve;",     #latin capital letter E
+        "√í" =>  "&Ograve;",     #latin capital letter E
+        "√∫" =>  "&uacute;",     #latin capital letter E
+        "√ö" =>  "&Uacute;",     #latin small letter e
+        "√π" =>  "&ugrave;",     #latin capital letter E
+        "√ô" =>  "&Ugrave;",     #latin capital letter E
+        "√ë" =>  "&Ntilde;",
+        "√±" =>  "&ntilde;",
+        "√á" =>  "&Ccedil;",     #latin capital letter C
+        "√ß" =>  "&ccedil;"     #latin small letter c
     );
 
     foreach ($html_entities as $key => $value) {
